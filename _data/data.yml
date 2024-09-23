@@ -17,7 +17,8 @@ sidebar:
     phone: +359 89 778 3333
     timezone: # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://cvetelinstoimenov.github.io/ # Include the full website URL, including "http://" or "https://".
+    website: [site](https://cvetelinstoimenov.github.io/) # Include the full website URL, including "http://" or "https://".
+    website: [blog](https://stoimenovv.blogspot.com/)
     linkedin: cvetelin-stoimenov
     xing: 
     github: CvetelinStoimenov
