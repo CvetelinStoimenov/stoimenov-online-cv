@@ -42,9 +42,6 @@ sidebar:
         - idiom: English
           level: Upper-Intermediate
 
-        - idiom: 
-          level: 
-
     interests:
       title: Interests
       info:
@@ -72,20 +69,9 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: 
+      - degree: QA Engineer
         university: SoftUni
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+        time: 2023 - 2024
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
           adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -98,44 +84,45 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Sales Associate
+        time: 2015 - 2023
+        company: AUTO HELP Ltd, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          As an Aftermarket Sales Associate, I managed product and service knowledge, 
+          optimized pricing strategies, and drove sales. I ensured accurate inventory control and minimized discrepancies 
+          through efficient stock management. A key part of my role was building strong customer relationships, handling data entry, 
+          and creating analytical reports. By automating processes using VBA, I improved both efficiency and accuracy. 
+          My strong organizational and analytical skills, combined with effective time management, 
+          enabled me to consistently meet objectives.
+      - role: Shop Manager
+        time: 2008 - 2014
+        company: Germanos Telecom Bulgaria PLC, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Building on my success as Assistant Shop Manager, I was promoted to Shop Manager within 8 months. 
+          This promotion was driven by my consistent record of increasing sales, leading teams, and improving operational efficiency. 
+          I applied the strategies that had placed me among the top salespeople nationwide to enhance store performance. 
+          In this role, I took full responsibility for managing daily operations, mentoring the sales team, 
+          and ensuring high levels of customer satisfaction, which contributed to the store's sustained success. 
+          Under my leadership, the store earned the 'Store of the Month' trophy, recognizing my ability to drive both 
+          team performance and results.
+      - role: Assistant Shop Manager
+        time: 03/2008-11/2008
+        company: Germanos Telecom Bulgaria PLC, Sofia
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
+          Thanks to my consistently high performance as a shop assistant, I was promoted to assistant shop manager within 
+          less than a year. I maintained my position among the top 5 salespeople nationwide by consistently meeting and 
+          exceeding sales targets. My ability to understand customer needs and offer tailored solutions played a key role in 
+          this achievement. As a deputy manager, I continued to drive sales and contributed to the overall success of the store, 
+          while also taking on additional responsibilities in team management and operational oversight.
+      - role: Shop assistant
+        time: 05/2007-03/2008
+        company: Germanos Telecom Bulgaria PLC, Sofia
+        details: |
+          As a shop assistant in a telecommunications company, I developed in-depth knowledge of the company's products and services, 
+          allowing me to effectively present and offer customized solutions to meet clients' specific needs. 
+          By consistently achieving personal targets, I was recognized as the top performer in the store and regularly ranked 
+          among the top 5 sellers nationwide in monthly sales charts. My strong communication skills and product 
+          expertise were key in driving sales and ensuring high levels of customer satisfaction.
 certifications:
       title: Certifications
       list:
