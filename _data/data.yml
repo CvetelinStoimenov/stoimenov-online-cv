@@ -15,16 +15,16 @@ sidebar:
     # Sidebar links
     email: stoimenovv@gmail.com
     phone: +359 89 778 3333
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    timezone: # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
     website: https://cvetelinstoimenov.github.io/ # Include the full website URL, including "http://" or "https://".
-    linkedin: Cvetelin Stoimenov
+    linkedin: cvetelin-stoimenov
     xing: 
     github: CvetelinStoimenov
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
+    twitter: 
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -36,11 +36,11 @@ sidebar:
     languages:
       title: Languages
       info:
-        - idiom: English
+        - idiom: Bulgarian
           level: Native
 
         - idiom: English
-          level: Upper Intermediate
+          level: Upper-Intermediate
 
         - idiom: 
           level: 
@@ -48,29 +48,32 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Retro gaming
           link:
 
-        - item: Snowboarding
+        - item: Skiing
           link:
 
-        - item: Cooking
+        - item: Aquaristics
+          link:
+
+        - item: DIY crafting
           link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      With 16 years of professional experience in managerial roles, 
+      I have always been passionate about new technologies and exploring 
+      innovative applications. Pursuing my passion for growth and discovery, 
+      I decided to shift my career path and completed the QA program at SoftUni 
+      with distinction. I am committed to continuous learning and development, 
+      seeking opportunities to expand my knowledge and skills.
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
+      - degree: 
+        university: SoftUni
         time: 2011 - 2012
         details: |
           Describe your study here lorem ipsum dolor sit amet, consectetuer
