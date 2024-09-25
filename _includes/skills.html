@@ -3,41 +3,70 @@
 {% if skills %}
   {% if site.data.data.sidebar.skills %}
     <div class="skills-container container-block">
-      <h3 class="container-block-title">{{ skills.title }}</h3>
-      <div class="skillset">
-        {% for skill in skills.toolset %}
-        <div class="item">
-          <h4 class="level-title">{{ skill.name }}</h4>
-          {% assign skill_level = 'width: ' | append: skill.level %}
-          <div class="level-bar">
-            <div class="level-bar-inner" style="{{ skill_level }}"></div>
-          </div><!--//level-bar-->
-        </div><!--//item-->
-        {% endfor %}
-      </div><!--//skillset-->
+      <h2 class="container-block-title">{{ skills.title }}</h2>
+
+      <div class="skill-category">
+        <h3>SOFT SKILLS</h3>
+        <p>Fast learner, Adaptability, Problem solving, Creativity, Teamwork, Analytical Thinking</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>PROGRAMMING LANGUAGES</h3>
+        <p>C#, JavaScript, HTML, CSS, XML</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>FRAMEWORKS</h3>
+        <p>.NET, ASP.NET Core, EF Core</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>DATABASES</h3>
+        <p>MySQL, Microsoft SQL Server, MongoDB</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>TOOLS</h3>
+        <p>Visual Studio, Visual Studio Code, SSMS, TestRail, Jira, Postman, Selenium, Appium, Playwright</p>
+      </div>
+
     </div><!--//skills-container-->
 
   {% else %}
     <section class="section skills-section">
-      <h3 class="section-title">
+      <h2 class="section-title">
         <span class="fa-stack fa-xs">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
         </span>
         {{ skills.title }}
-      </h3>
-  
-      <div class="skillset">
-        {% for skill in skills.toolset %}
-        <div class="item">
-          <h4 class="level-title">{{ skill.name }}</h4>
-          {% assign skill_level = 'width: ' | append: skill.level %}
-          <div class="level-bar">
-            <div class="level-bar-inner" style="{{ skill_level }}"></div>
-          </div><!--//level-bar-->
-        </div><!--//item-->
-        {% endfor %}
-      </div><!--//skillset-->
+      </h2>
+
+      <div class="skill-category">
+        <h3>SOFT SKILLS</h3>
+        <p>Fast learner, Adaptability, Problem solving, Creativity, Teamwork, Analytical Thinking</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>PROGRAMMING LANGUAGES</h3>
+        <p>C#, JavaScript, HTML, CSS, XML</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>FRAMEWORKS</h3>
+        <p>.NET, ASP.NET Core, EF Core</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>DATABASES</h3>
+        <p>MySQL, Microsoft SQL Server, MongoDB</p>
+      </div>
+
+      <div class="skill-category">
+        <h3>TOOLS</h3>
+        <p>Visual Studio, Visual Studio Code, SSMS, TestRail, Jira, Postman, Selenium, Appium, Playwright</p>
+      </div>
+
     </section><!--//skills-section-->
   {% endif %}
 {% endif %}
