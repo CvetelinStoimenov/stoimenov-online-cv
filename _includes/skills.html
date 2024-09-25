@@ -3,11 +3,11 @@
 {% if skills %}
   {% if site.data.data.sidebar.skills %}
     <div class="skills-container container-block">
-      <h2 class="container-block-title">{{ skills.title }}</h2>
+      <h3 class="container-block-title">{{ skills.title }}</h3>
       <div class="skillset">
         {% for skill in skills.toolset %}
         <div class="item">
-          <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
           {% assign skill_level = 'width: ' | append: skill.level %}
           <div class="level-bar">
             <div class="level-bar-inner" style="{{ skill_level }}"></div>
@@ -19,18 +19,18 @@
 
   {% else %}
     <section class="section skills-section">
-      <h2 class="section-title">
+      <h3 class="section-title">
         <span class="fa-stack fa-xs">
           <i class="fas fa-circle fa-stack-2x"></i>
           <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
         </span>
         {{ skills.title }}
-      </h2>
+      </h3>
   
       <div class="skillset">
         {% for skill in skills.toolset %}
         <div class="item">
-          <h3 class="level-title">{{ skill.name }}</h3>
+          <h4 class="level-title">{{ skill.name }}</h4>
           {% assign skill_level = 'width: ' | append: skill.level %}
           <div class="level-bar">
             <div class="level-bar-inner" style="{{ skill_level }}"></div>
