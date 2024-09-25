@@ -70,15 +70,11 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: QA Engineer
-        university: SoftUni
-        time: 2023 - 2024
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
         details: |
-          Completed a comprehensive QA Engineer program, mastering both manual and automated testing methodologies. 
-          Gained expertise in tools such as Selenium, Postman, and JMeter for functional and performance testing. 
-          Developed proficiency in CI/CD processes using GitHub Actions and Docker. Acquired strong programming skills 
-          in C# and JavaScript, focusing on OOP principles and unit testing, along with hands-on experience in 
-          RESTful API testing and database management.
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
 
 experiences:
     title: Experiences
