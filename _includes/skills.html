@@ -1,72 +1,54 @@
 {% assign skills = site.data.data.skills %}
 
 {% if skills %}
-  {% if site.data.data.sidebar.skills %}
-    <div class="skills-container container-block">
-      <h2 class="container-block-title">{{ skills.title }}</h2>
+  <section class="section skills-section">
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ skills.title }}
+    </h2>
 
-      <div class="skill-category">
-        <h3>SOFT SKILLS</h3>
-        <p>Fast learner, Adaptability, Problem solving, Creativity, Teamwork, Analytical Thinking</p>
-      </div>
+    <!-- Soft Skills -->
+    <h3>SOFT SKILLS</h3>
+    <ul>
+      {% for skill in skills.soft_skills %}
+        <li>{{ skill.name }}</li>
+      {% endfor %}
+    </ul>
 
-      <div class="skill-category">
-        <h3>PROGRAMMING LANGUAGES</h3>
-        <p>C#, JavaScript, HTML, CSS, XML</p>
-      </div>
+    <!-- Programming Languages -->
+    <h3>Programming Languages</h3>
+    <ul>
+      {% for language in skills.programming_languages %}
+        <li>{{ language.name }} {% if language.level != 'N/A' %} ({{ language.level }}) {% endif %}</li>
+      {% endfor %}
+    </ul>
 
-      <div class="skill-category">
-        <h3>FRAMEWORKS</h3>
-        <p>.NET, ASP.NET Core, EF Core</p>
-      </div>
+    <!-- Frameworks -->
+    <h3>Frameworks</h3>
+    <ul>
+      {% for framework in skills.frameworks %}
+        <li>{{ framework.name }} {% if framework.level != 'N/A' %} ({{ framework.level }}) {% endif %}</li>
+      {% endfor %}
+    </ul>
 
-      <div class="skill-category">
-        <h3>DATABASES</h3>
-        <p>MySQL, Microsoft SQL Server, MongoDB</p>
-      </div>
+    <!-- Databases -->
+    <h3>Databases</h3>
+    <ul>
+      {% for database in skills.databases %}
+        <li>{{ database.name }} {% if database.level != 'N/A' %} ({{ database.level }}) {% endif %}</li>
+      {% endfor %}
+    </ul>
 
-      <div class="skill-category">
-        <h3>TOOLS</h3>
-        <p>Visual Studio, Visual Studio Code, SSMS, TestRail, Jira, Postman, Selenium, Appium, Playwright</p>
-      </div>
+    <!-- Tools -->
+    <h3>Tools</h3>
+    <ul>
+      {% for tool in skills.tools %}
+        <li>{{ tool.name }} {% if tool.level != 'N/A' %} ({{ tool.level }}) {% endif %}</li>
+      {% endfor %}
+    </ul>
 
-    </div><!--//skills-container-->
-
-  {% else %}
-    <section class="section skills-section">
-      <h2 class="section-title">
-        <span class="fa-stack fa-xs">
-          <i class="fas fa-circle fa-stack-2x"></i>
-          <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
-        </span>
-        {{ skills.title }}
-      </h2>
-
-      <div class="skill-category">
-        <h3>SOFT SKILLS</h3>
-        <p>Fast learner, Adaptability, Problem solving, Creativity, Teamwork, Analytical Thinking</p>
-      </div>
-
-      <div class="skill-category">
-        <h3>PROGRAMMING LANGUAGES</h3>
-        <p>C#, JavaScript, HTML, CSS, XML</p>
-      </div>
-
-      <div class="skill-category">
-        <h3>FRAMEWORKS</h3>
-        <p>.NET, ASP.NET Core, EF Core</p>
-      </div>
-
-      <div class="skill-category">
-        <h3>DATABASES</h3>
-        <p>MySQL, Microsoft SQL Server, MongoDB</p>
-      </div>
-
-      <div class="skill-category">
-        <h3>TOOLS</h3>
-        <p>Visual Studio, Visual Studio Code, SSMS, TestRail, Jira, Postman, Selenium, Appium, Playwright</p>
-      </div>
-
-    </section><!--//skills-section-->
-  {% endif %}
+  </section><!--//skills-section-->
 {% endif %}
