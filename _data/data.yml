@@ -123,7 +123,7 @@ experiences:
           among the top 5 sellers nationwide in monthly sales charts. My strong communication skills and product 
           expertise were key in driving sales and ensuring high levels of customer satisfaction.
           
-certifications:
+# certifications:
       title: Certifications
       list:
         - name: CV Builder
@@ -165,15 +165,14 @@ certifications:
             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
+    title: QA Automation Project - Foody Application
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      This project involved developing automated UI tests for the Foody web application, focusing on core CRUD 
+      functionalities and user interactions.
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Automated Testing with Selenium
+        link: "#"
+        tagline: "Created automated tests for the user interface, ensuring smooth navigation and functionality across various scenarios."
 
       - title: DevStudio
         link: "#"
