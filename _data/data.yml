@@ -8,6 +8,8 @@ sidebar:
     education: False # set to False if you want education in main section instead of in sidebar
     include_oss_contributions: False
     include_publications: False
+    skills: True
+    
     # Profile information
     name: Cvetelin Radkov Stoimenov
     tagline: Applying for Junior Quality Assurance
