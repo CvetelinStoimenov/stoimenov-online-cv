@@ -15,9 +15,13 @@ layout: default
 
 {% include projects.html %}
 
-{% include oss-contributions.html %}
+{% if site.data.data.include_oss_contributions %}
+  {% include oss-contributions.html %}
+{% endif %}
 
-{% include publications.html %}
+{% if site.data.data.include_publications %}
+  {% include publications.html %}
+{% endif %}
 
 {% include skills.html %}
 
