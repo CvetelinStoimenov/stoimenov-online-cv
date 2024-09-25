@@ -164,56 +164,46 @@ certifications:
             Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
             Praesent felis nibh, eleifend id eleifend id, dictum id enim.
             Praesent venenatis erat non augue suscipit consectetur.
-
 projects:
-  title: QA Automation Project - Foody Application
-  intro: >
-    This project involved developing automated UI tests for the Foody web application, focusing on core CRUD functionalities and user interactions.
-  assignments:
-    - title: Automated Testing with Selenium
-      link: "#"
-      tagline: "Created automated tests for the user interface, ensuring smooth navigation and functionality across various scenarios."
+  - title: QA Automation Project - Foody Application
+    intro: >
+      This project involved developing automated UI tests for the Foody web application, focusing on core CRUD functionalities and user interactions.
+    assignments:
+      - title: Automated Testing with Selenium
+        link: "#"
+        tagline: "Created automated tests for the user interface, ensuring smooth navigation and functionality across various scenarios."
+      - title: API Testing with Postman
+        link: "#"
+        tagline: "Developed and executed tests for RESTful APIs to validate response accuracy, performance, and error handling."
+      - title: CI/CD Integration
+        link: "#"
+        tagline: "Set up a CI/CD pipeline using GitHub Actions to automate the build and deployment process for the Foody application."
+      - title: Performance Testing with JMeter
+        link: "#"
+        tagline: "Conducted performance testing to assess the application's scalability and responsiveness under heavy load."
+      - title: Bug Tracking and Reporting
+        link: "#"
+        tagline: "Utilized JIRA for bug tracking and reporting, improving team collaboration and enhancing the testing workflow."
 
-    - title: API Testing with Postman
-      link: "#"
-      tagline: "Developed and executed tests for RESTful APIs to validate response accuracy, performance, and error handling."
-
-    - title: CI/CD Integration
-      link: "#"
-      tagline: "Set up a CI/CD pipeline using GitHub Actions to automate the build and deployment process for the Foody application."
-
-    - title: Performance Testing with JMeter
-      link: "#"
-      tagline: "Conducted performance testing to assess the application's scalability and responsiveness under heavy load."
-
-    - title: Bug Tracking and Reporting
-      link: "#"
-      tagline: "Utilized JIRA for bug tracking and reporting, improving team collaboration and enhancing the testing workflow."
-
-
-  title: End-to-End Testing Project - Playwright
-  intro: >
-    This project focused on implementing end-to-end testing for a web application using Playwright, ensuring comprehensive test coverage across multiple user scenarios.
-  assignments:
-    - title: Test Automation Framework
-      link: "#"
-      tagline: "Developed a robust test automation framework using Playwright, enabling efficient test script creation and execution."
-
-    - title: Cross-Browser Testing
-      link: "#"
-      tagline: "Implemented tests across multiple browsers (Chromium, Firefox, WebKit) to ensure consistent application behavior."
-
-    - title: User Interaction Simulation
-      link: "#"
-      tagline: "Simulated real user interactions such as clicks, form submissions, and navigation to validate application workflows."
-
-    - title: Visual Regression Testing
-      link: "#"
-      tagline: "Integrated visual regression testing to detect UI changes and maintain visual consistency across deployments."
-
-    - title: Continuous Integration Setup
-      link: "#"
-      tagline: "Configured continuous integration pipelines to automatically run end-to-end tests on each code commit, ensuring early detection of issues."
+  - title: End-to-End Testing Project - Playwright
+    intro: >
+      This project focused on implementing end-to-end testing for a web application using Playwright, ensuring comprehensive test coverage across multiple user scenarios.
+    assignments:
+      - title: Test Automation Framework
+        link: "#"
+        tagline: "Developed a robust test automation framework using Playwright, enabling efficient test script creation and execution."
+      - title: Cross-Browser Testing
+        link: "#"
+        tagline: "Implemented tests across multiple browsers (Chromium, Firefox, WebKit) to ensure consistent application behavior."
+      - title: User Interaction Simulation
+        link: "#"
+        tagline: "Simulated real user interactions such as clicks, form submissions, and navigation to validate application workflows."
+      - title: Visual Regression Testing
+        link: "#"
+        tagline: "Integrated visual regression testing to detect UI changes and maintain visual consistency across deployments."
+      - title: Continuous Integration Setup
+        link: "#"
+        tagline: "Configured continuous integration pipelines to automatically run end-to-end tests on each code commit, ensuring early detection of issues."
 
 
 oss:
