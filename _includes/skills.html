@@ -10,52 +10,55 @@
       {{ skills.title }}
     </h2>
 
-    <div class="skills-columns">
-      <!-- First Column: Soft Skills and Programming Languages -->
-      <div class="skills-column">
-        <!-- Soft Skills -->
-        <h3>SOFT SKILLS</h3>
-        <ul>
-          {% for skill in skills.soft_skills %}
-            <li>{{ skill.name }}</li>
-          {% endfor %}
-        </ul>
+    <!-- Soft Skills -->
+    <div class="skills-category">
+      <h3>SOFT SKILLS</h3>
+      <ul>
+        {% for skill in skills.soft_skills %}
+          <li>{{ skill.name }}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <!-- Programming Languages -->
-        <h3>Programming Languages</h3>
-        <ul>
-          {% for language in skills.programming_languages %}
-            <li>{{ language.name }} {% if language.level != 'N/A' %} ({{ language.level }}) {% endif %}</li>
-          {% endfor %}
-        </ul>
-      </div>
+    <!-- Programming Languages -->
+    <div class="skills-category">
+      <h3>Programming Languages</h3>
+      <ul>
+        {% for language in skills.programming_languages %}
+          <li>{{ language.name }} {% if language.level != 'N/A' %} ({{ language.level }}) {% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-      <!-- Second Column: Frameworks, Databases, and Tools -->
-      <div class="skills-column">
-        <!-- Frameworks -->
-        <h3>Frameworks</h3>
-        <ul>
-          {% for framework in skills.frameworks %}
-            <li>{{ framework.name }} {% if framework.level != 'N/A' %} ({{ framework.level }}) {% endif %}</li>
-          {% endfor %}
-        </ul>
+    <!-- Frameworks -->
+    <div class="skills-category">
+      <h3>Frameworks</h3>
+      <ul>
+        {% for framework in skills.frameworks %}
+          <li>{{ framework.name }} {% if framework.level != 'N/A' %} ({{ framework.level }}) {% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <!-- Databases -->
-        <h3>Databases</h3>
-        <ul>
-          {% for database in skills.databases %}
-            <li>{{ database.name }} {% if database.level != 'N/A' %} ({{ database.level }}) {% endif %}</li>
-          {% endfor %}
-        </ul>
+    <!-- Databases -->
+    <div class="skills-category">
+      <h3>Databases</h3>
+      <ul>
+        {% for database in skills.databases %}
+          <li>{{ database.name }} {% if database.level != 'N/A' %} ({{ database.level }}) {% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
 
-        <!-- Tools -->
-        <h3>Tools</h3>
-        <ul>
-          {% for tool in skills.tools %}
-            <li>{{ tool.name }} {% if tool.level != 'N/A' %} ({{ tool.level }}) {% endif %}</li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div><!--//skills-columns-->
+    <!-- Tools -->
+    <div class="skills-category">
+      <h3>Tools</h3>
+      <ul>
+        {% for tool in skills.tools %}
+          <li>{{ tool.name }} {% if tool.level != 'N/A' %} ({{ tool.level }}) {% endif %}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
   </section><!--//skills-section-->
 {% endif %}
