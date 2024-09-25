@@ -23,5 +23,6 @@ layout: default
   {% include publications.html %}
 {% endif %}
 
+{% unless site.data.data.sidebar.skills %}
 {% include skills.html %}
-
+{% endunless %}
