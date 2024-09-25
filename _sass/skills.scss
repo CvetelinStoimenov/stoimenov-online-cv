@@ -1,38 +1,34 @@
 .skills-section {
-  margin: 20px 0;
-}
-
-.skills-columns {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 10px;
 }
 
 .skills-column {
-  width: 10%; /* Adjust to create 2 columns */
+  flex: 1 0 48%; /* Each column takes approximately half of the width (48% for spacing) */
   margin-bottom: 20px;
 }
 
-.skills-column h3 {
-  font-size: 18px;
-  color: #333;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-.skills-column ul {
-  list-style-type: none;
-  padding-left: 0.2;
-}
-
-.skills-column ul li {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #555;
-}
-
-@media screen and (max-width: 768px) {
+/* Ensures columns stack vertically on smaller screens */
+@media (max-width: 768px) {
   .skills-column {
-    width: 100%; /* Stack columns on smaller screens */
+    flex: 1 0 100%; /* On small screens, columns will take full width */
   }
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
