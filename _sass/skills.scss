@@ -1,5 +1,6 @@
 .skills-section {
   margin-bottom: 60px; // Consistent section spacing
+  padding-left: 30px; // Add padding to the left side of the entire section
 }
 
 .section-title {
@@ -14,7 +15,7 @@
 
 .skills-list {
   list-style: none; // Remove default bullet points
-  padding-left: 30; // Remove padding from list
+  padding-left: 0; // Remove padding from list
   margin: 0;
 
   li {
