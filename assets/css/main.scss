@@ -16,3 +16,6 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+// ... other imports and styles ...
+
+@import "skills";
