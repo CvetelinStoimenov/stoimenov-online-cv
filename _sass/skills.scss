@@ -1,33 +1,39 @@
 .skills-section {
-  margin-bottom: 30px;
+  margin-bottom: 60px; // Consistent section spacing
 }
 
-.skills-category {
+.section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: darken($theme-color, 15%);
+  position: relative;
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
-.skills-category h3 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
+.skills-list {
+  list-style: none; // Remove default bullet points
+  padding-left: 0; // Remove padding from list
+  margin: 0;
+
+  li {
+    font-size: 14px; // Match font size with other list elements
+    margin-bottom: 10px; // Consistent spacing between items
+    color: $text-color-secondary; // Match text color
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
-.skills-category ul {
-  list-style: none;
-  padding-left: 0;
+.skillset .level-bar {
+  height: 12px;
+  background: $smoky-white;
 }
 
-.skills-category ul li {
-  font-size: 14px;
-  margin-bottom: 5px;
-  padding-left: 15px;
-  position: relative;
-}
-
-.skills-category ul li:before {
-  content: '•';
-  position: absolute;
-  left: 0;
-  color: #3498db; /* Bullet color */
-  font-weight: bold;
+.skillset .level-bar-inner {
+  height: 12px;
+  background: lighten($theme-color, 15%);
 }
