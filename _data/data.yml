@@ -5,7 +5,7 @@
 sidebar:
     position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Cvetelin Radkov Stoimenov
@@ -70,11 +70,15 @@ career-profile:
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: QA Engineer
+        university: SoftUni
+        time: 2023 - 2024
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          Completed a comprehensive QA Engineer program, mastering both manual and automated testing methodologies. 
+          Gained expertise in tools such as Selenium, Postman, and JMeter for functional and performance testing. 
+          Developed proficiency in CI/CD processes using GitHub Actions and Docker. Acquired strong programming skills 
+          in C# and JavaScript, focusing on OOP principles and unit testing, along with hands-on experience in 
+          RESTful API testing and database management.
 
 experiences:
     title: Experiences
