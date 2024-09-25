@@ -9,6 +9,7 @@ sidebar:
     include_oss_contributions: False
     include_publications: False
     skills: True
+    about: False
     
     # Profile information
     name: Cvetelin Radkov Stoimenov
