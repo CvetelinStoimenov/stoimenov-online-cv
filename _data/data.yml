@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    position: right # position of the sidebar : left or right
+    position: left # position of the sidebar : left or right
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -17,7 +17,7 @@ sidebar:
     phone: +359 89 778 3333
     timezone: # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://cvetelinstoimenov.github.io/ # Include the full website URL, including "http://" or "https://".
+    website: https://cvetelinstoimenov.github.io # Include the full website URL, including "http://" or "https://".
     linkedin: cvetelin-stoimenov
     xing: 
     github: CvetelinStoimenov
@@ -31,7 +31,7 @@ sidebar:
     mastodon:  # Please include your full Mastodon link here.
     hackerrank: # Please provide your HackerRank username.
     leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    pdf: https://rxresu.me/cvetelinstoimenov/junior-quality-assurance # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
@@ -40,7 +40,7 @@ sidebar:
           level: Native
 
         - idiom: English
-          level: Upper-Intermediate
+          level: Intermediate
 
     interests:
       title: Interests
@@ -58,7 +58,7 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
       With 16 years of professional experience in managerial roles, 
       I have always been passionate about new technologies and exploring 
@@ -66,6 +66,7 @@ career-profile:
       I decided to shift my career path and completed the QA program at SoftUni 
       with distinction. I am committed to continuous learning and development, 
       seeking opportunities to expand my knowledge and skills.
+
 education:
     title: Education
     info:
@@ -73,11 +74,11 @@ education:
         university: SoftUni
         time: 2023 - 2024
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
+          Completed a comprehensive QA Engineer program, mastering both manual and automated testing methodologies. 
+          Gained expertise in tools such as Selenium, Postman, and JMeter for functional and performance testing. 
+          Developed proficiency in CI/CD processes using GitHub Actions and Docker. Acquired strong programming skills 
+          in C# and JavaScript, focusing on OOP principles and unit testing, along with hands-on experience in 
+          RESTful API testing and database management.
             - Bullet point
             - Bullet point
 
@@ -165,31 +166,55 @@ certifications:
             Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  title: QA Automation Project - Foody Application
+  intro: >
+    This project involved developing automated UI tests for the Foody web application, focusing on core CRUD functionalities and user interactions.
+  assignments:
+    - title: Automated Testing with Selenium
+      link: "#"
+      tagline: "Created automated tests for the user interface, ensuring smooth navigation and functionality across various scenarios."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+    - title: API Testing with Postman
+      link: "#"
+      tagline: "Developed and executed tests for RESTful APIs to validate response accuracy, performance, and error handling."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - title: CI/CD Integration
+      link: "#"
+      tagline: "Set up a CI/CD pipeline using GitHub Actions to automate the build and deployment process for the Foody application."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    - title: Performance Testing with JMeter
+      link: "#"
+      tagline: "Conducted performance testing to assess the application's scalability and responsiveness under heavy load."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - title: Bug Tracking and Reporting
+      link: "#"
+      tagline: "Utilized JIRA for bug tracking and reporting, improving team collaboration and enhancing the testing workflow."
+
+
+  title: End-to-End Testing Project - Playwright
+  intro: >
+    This project focused on implementing end-to-end testing for a web application using Playwright, ensuring comprehensive test coverage across multiple user scenarios.
+  assignments:
+    - title: Test Automation Framework
+      link: "#"
+      tagline: "Developed a robust test automation framework using Playwright, enabling efficient test script creation and execution."
+
+    - title: Cross-Browser Testing
+      link: "#"
+      tagline: "Implemented tests across multiple browsers (Chromium, Firefox, WebKit) to ensure consistent application behavior."
+
+    - title: User Interaction Simulation
+      link: "#"
+      tagline: "Simulated real user interactions such as clicks, form submissions, and navigation to validate application workflows."
+
+    - title: Visual Regression Testing
+      link: "#"
+      tagline: "Integrated visual regression testing to detect UI changes and maintain visual consistency across deployments."
+
+    - title: Continuous Integration Setup
+      link: "#"
+      tagline: "Configured continuous integration pipelines to automatically run end-to-end tests on each code commit, ensuring early detection of issues."
+
 
 oss:
     title: OSS Contributions
