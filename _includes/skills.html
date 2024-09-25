@@ -12,7 +12,7 @@
 
     <!-- Soft Skills -->
     <div class="skills-category">
-      <h3>SOFT SKILLS</h3>
+      <h5>SOFT SKILLS</h5>
       <ul>
         {% for skill in skills.soft_skills %}
           <li>{{ skill.name }}</li>
@@ -22,7 +22,7 @@
 
     <!-- Programming Languages -->
     <div class="skills-category">
-      <h3>Programming Languages</h3>
+      <h5>Programming Languages</h5>
       <ul>
         {% for language in skills.programming_languages %}
           <li>{{ language.name }} {% if language.level != 'N/A' %} ({{ language.level }}) {% endif %}</li>
@@ -32,7 +32,7 @@
 
     <!-- Frameworks -->
     <div class="skills-category">
-      <h3>Frameworks</h3>
+      <h5>Frameworks</h5>
       <ul>
         {% for framework in skills.frameworks %}
           <li>{{ framework.name }} {% if framework.level != 'N/A' %} ({{ framework.level }}) {% endif %}</li>
@@ -42,7 +42,7 @@
 
     <!-- Databases -->
     <div class="skills-category">
-      <h3>Databases</h3>
+      <h5>Databases</h5>
       <ul>
         {% for database in skills.databases %}
           <li>{{ database.name }} {% if database.level != 'N/A' %} ({{ database.level }}) {% endif %}</li>
@@ -52,7 +52,7 @@
 
     <!-- Tools -->
     <div class="skills-category">
-      <h3>Tools</h3>
+      <h5>Tools</h5>
       <ul>
         {% for tool in skills.tools %}
           <li>{{ tool.name }} {% if tool.level != 'N/A' %} ({{ tool.level }}) {% endif %}</li>
