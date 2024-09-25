@@ -124,6 +124,7 @@ experiences:
           By consistently achieving personal targets, I was recognized as the top performer in the store and regularly ranked 
           among the top 5 sellers nationwide in monthly sales charts. My strong communication skills and product 
           expertise were key in driving sales and ensuring high levels of customer satisfaction.
+          
 certifications:
       title: Certifications
       list:
@@ -181,31 +182,6 @@ projects:
       - title: Performance Testing with JMeter
         link: "#"
         tagline: "Conducted performance testing to assess the application's scalability and responsiveness under heavy load."
-      - title: Bug Tracking and Reporting
-        link: "#"
-        tagline: "Utilized JIRA for bug tracking and reporting, improving team collaboration and enhancing the testing workflow."
-
-  - title: End-to-End Testing Project - Playwright
-    intro: >
-      This project focused on implementing end-to-end testing for a web application using Playwright, ensuring comprehensive test coverage across multiple user scenarios.
-    assignments:
-      - title: Test Automation Framework
-        link: "#"
-        tagline: "Developed a robust test automation framework using Playwright, enabling efficient test script creation and execution."
-      - title: Cross-Browser Testing
-        link: "#"
-        tagline: "Implemented tests across multiple browsers (Chromium, Firefox, WebKit) to ensure consistent application behavior."
-      - title: User Interaction Simulation
-        link: "#"
-        tagline: "Simulated real user interactions such as clicks, form submissions, and navigation to validate application workflows."
-      - title: Visual Regression Testing
-        link: "#"
-        tagline: "Integrated visual regression testing to detect UI changes and maintain visual consistency across deployments."
-      - title: Continuous Integration Setup
-        link: "#"
-        tagline: "Configured continuous integration pipelines to automatically run end-to-end tests on each code commit, ensuring early detection of issues."
-
-
 oss:
     title: OSS Contributions
     intro: >
