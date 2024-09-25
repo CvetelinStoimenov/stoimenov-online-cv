@@ -235,26 +235,80 @@ publications:
         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
+  title: Skills & Proficiency
+  
+  soft_skills:
+    - name: Fast learner
+    - name: Adaptability
+    - name: Problem solving
+    - name: Creativity
+    - name: Teamwork
+    - name: Analytical Thinking
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+  programming_languages:
+    - name: C#
+      level: N/A
+    - name: JavaScript
+      level: N/A
+    - name: HTML
+      level: N/A
+    - name: CSS
+      level: N/A
+    - name: XML
+      level: N/A
 
-      - name: Javascript & jQuery
-        level: 98%
+  frameworks:
+    - name: .NET
+      level: N/A
+    - name: ASP.NET Core
+      level: N/A
+    - name: EF Core
+      level: N/A
 
-      - name: Angular
-        level: 98%
+  databases:
+    - name: MySQL
+      level: N/A
+    - name: Microsoft SQL Server
+      level: N/A
+    - name: MongoDB
+      level: N/A
 
-      - name: HTML5 & CSS
-        level: 95%
+  tools:
+    - name: Visual Studio
+      level: N/A
+    - name: Visual Studio Code
+      level: N/A
+    - name: SSMS
+      level: N/A
+    - name: TestRail
+      level: N/A
+    - name: Jira
+      level: N/A
+    - name: Postman
+      level: N/A
+    - name: Selenium
+      level: N/A
+    - name: Appium
+      level: N/A
+    - name: Playwright
+      level: N/A
+    - name: RestSharp
+      level: N/A
+    - name: NUnit
+      level: N/A
+    - name: JMeter
+      level: N/A
+    - name: K6
+      level: N/A
+    - name: qUnit
+      level: N/A
+    - name: MySQL Workbench
+      level: N/A
+    - name: MongoDB Compass
+      level: N/A
+    - name: GitHub
+      level: N/A
 
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
