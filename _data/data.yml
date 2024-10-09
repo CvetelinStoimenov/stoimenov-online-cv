@@ -298,7 +298,7 @@ certifications:
 projects:
     title: My Projects
     intro: >
-      In this section, you can find summaries of some of my projects. For more detailed insights and additional projects, please visit my blog: https://cvetelinstoimenov.github.io/blog/#/.
+      In this section, you can find summaries of some of my projects. For more detailed insights and additional projects, please
     assignments:
       - title: Automated Testing for Foody Web Application
         tagline: Developed automated UI tests for the Foody web application, focusing on core functionalities.
