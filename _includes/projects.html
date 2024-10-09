@@ -19,21 +19,34 @@
   {% for project in projects.assignments %}
     <div class="item">
 
-      <span class="project-title">
+      <h3 class="project-title">
         {% if project.link %}
         <a href="{{ project.link }}" target="_blank">{{ project.title }}</a>
         {% else %}
         {{ project.title }}
         {% endif %}
-      </span>
+      </h3>
 
-      {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+      <p><strong>Date:</strong> {{ project.date }}</p>
+      
+      <p><strong>Summary:</strong> {{ project.summary }}</p>
+
+      {% if project.key_features %}
+      <div class="project-key-features">
+        <strong>Key Features:</strong>
+        <ul>
+          {% for feature in project.key_features %}
+            <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+      </div>
       {% endif %}
 
-      {% if project.technologies_used %}
+      <p><strong>Outcome:</strong> {{ project.outcome }}</p>
+
+      {% if project.technologies_tools %}
       <div class="project-technologies">
-        <strong>Technologies Used:</strong> {{ project.technologies_used }}
+        <strong>Technologies & Tools:</strong> {{ project.technologies_tools | join: ", " }}
       </div>
       {% endif %}
 
