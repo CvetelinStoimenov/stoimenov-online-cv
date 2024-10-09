@@ -132,7 +132,7 @@ certifications:
       list:
         - name: Front-End Test Automation
           start: 01/07/2024
-          end: 24/08/2024
+          end: 18/08/2024
           organization: SoftUni
           credentialid: 
           credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
@@ -144,162 +144,156 @@ certifications:
             architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
             into creating scalable and maintainable test scripts, incorporating security testing practices.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Front-End Technologies Basics
+          start: 13/05/2024
+          end: 29/06/2024
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/certificates/details/220109/0819f6b5
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course provided a strong foundation in front-end development and testing. I learned the core principles of web 
+            technologies such as HTML, CSS, and JavaScript, focusing on how to build dynamic, interactive user interfaces. Additionally, 
+            the course introduced DOM manipulation and event handling, laying the groundwork for automated testing of web applications. 
+            We also explored test automation tools like qUnit and Playwright, using them to automate testing of single-page applications.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Back-End Test Automation
+          start: 05/03/2024
+          end: 21/04/2024
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/certificates/details/214756/a71739c8
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            In this course, I focused on automating back-end testing processes and gained hands-on experience with API testing 
+            and DevOps practices. I learned how to test RESTful APIs using Postman and C#, ensuring back-end services function as expected.
+            The course also covered advanced topics like performance testing with JMeter and K6, continuous integration (CI) using 
+            DevOps tools, and test automation strategies in CI/CD pipelines. Additionally, I explored logging and monitoring in test 
+            automation, essential for tracking the performance and reliability of services.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Back-End Technologies Basics
+          start: 08/01/2024
+          end: 25/02/2024
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/207480/55d1e6ca
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course introduced me to the core principles of back-end development, focusing on data formats, APIs, 
+            and testing frameworks. I learned about the structure of RESTful API applications, including how to implement and 
+            test them. The course also covered essential data formats such as JSON, YAML, and XML, and their usage in data exchange. 
+            Additionally, I gained hands-on experience with Docker for containerization and Entity Framework for database interactions, 
+            alongside ASP.NET Core for building back-end services.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Programming Advanced for QA
+          start: 06/11/2023
+          end: 17/12/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/199745/4f584bea
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course focused on deepening my programming skills with advanced concepts and techniques relevant to quality assurance. 
+            I learned key topics like OOP principles (encapsulation, inheritance, abstraction, and polymorphism), which are essential 
+            for writing maintainable and scalable automated tests. We explored regular expressions and data structures such as 
+            dictionaries for more efficient data handling. The course also emphasized Lambda expressions and LINQ for simplifying and 
+            optimizing code, and advanced unit testing techniques were introduced to ensure robust code validation.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: IT Career Booster
+          start: 24/10/2023
+          end: 15/12/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/198998/b0b2fab8
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course aimed to equip me with essential skills and knowledge to advance my career in the IT field. 
+            I explored various aspects of the IT industry, including effective communication, project management, and professional 
+            development strategies. The course emphasized the importance of networking and building a personal brand, providing 
+            practical tips for enhancing my online presence and leveraging social media for career growth. Additionally, I gained 
+            insights into job search techniques and interview preparation, helping me to navigate the competitive job market successfully.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Programming Fundamentals and Unit Testing
+          start: 11/09/2023
+          end: 05/11/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/192189/10792e5c
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course focused on fundamental programming concepts, providing a solid foundation for effective automated testing. 
+            I upgraded my skills from manual QA to include basic coding techniques, IDE usage, and data manipulation. The curriculum 
+            included conditional constructs, loops, and basic data structures, preparing me for upcoming professional modules. 
+            I also gained experience in unit testing, emphasizing its importance in quality assurance.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: QA Fundamentals and Manual Testing
+          start: 27/06/2023
+          end: 12/08/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/183403/60d46c4d
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course covered the essential concepts of Software Quality Assurance (QA), focusing on defect identification and user 
+            experience testing. I practiced various testing approaches and learned to evaluate their applicability in different scenarios.
+            The course also delved into software performance testing, including aspects like security and compatibility. Additionally, 
+            I gained hands-on experience with manual testing techniques and tools for comprehensive project testing.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Software Technologies
+          start: 09/05/2023
+          end: 25/06/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/175506/b5bc64f7
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course introduced me to the foundational aspects of the software industry, focusing on both software and hardware 
+            components of computer systems. I learned about different operating systems, networks, and protocols, which are essential 
+            for understanding software development. The course also covered various programming languages and basic database concepts, 
+            enhancing my overall technological literacy. Project management tools were introduced to facilitate software development 
+            processes.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: Agile Advanced with Scrum
+          start: 22/03/2023
+          end: 08/05/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/171145/f24cb7e4
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This advanced course deepened my knowledge of Agile practices and the Scrum framework, focusing on their application beyond 
+            software development. I gained insights into team dynamics, roles, and responsibilities, enhancing my understanding of 
+            team interactions. The course also covered risk assessment and management strategies to optimize team efficiency. 
+            Practical applications of Agile tools were emphasized throughout the course.
 
-        - name: Front-End Test Automation
-          start: 01/07/2024
-          end: 24/08/2024
+        - name: QA Basics
+          start: 10/01/2023
+          end: 05/02/2023
           organization: SoftUni
           credentialid: 
-          credentialurl: www.softuni.bg/certificates/details/224792/e2dae625
+          credentialurl: www.softuni.bg/Certificates/Details/154112/96c70b38
           credentialname: Certificate
           details: |
-            In this advanced course, I developed expertise in automating the testing of front-end applications 
-            using various tools and frameworks. The curriculum covered key automation techniques for web and mobile 
-            applications, focusing on tools like Selenium and Appium. I learned how to build a robust test automation 
-            architecture and integrate these systems with Continuous Integration (CI) pipelines. The course also delved 
-            into creating scalable and maintainable test scripts, incorporating security testing practices.
+            This course introduced me to the foundational concepts of Software Quality Assurance (QA), emphasizing the importance 
+            of testing in the software development lifecycle. I learned about various types of testing and the defect lifecycle, 
+            gaining insights into effective bug tracking and documentation. The course provided hands-on exercises in identifying, 
+            analyzing, and reporting defects, enhancing my practical skills in testing methodologies. Additionally, I explored 
+            the creation of test scenarios and the application of different testing techniques in real-world projects.
 
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+        - name: Fundamentals in Mathematics
+          start: 24/10/2022
+          end: 03/12/2022
+          organization: SoftUni
+          credentialid: 
+          credentialurl: www.softuni.bg/Certificates/Details/148359/41ef942c
+          credentialname: Certificate
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+            This course provided a solid foundation in mathematical principles, covering essential topics that are critical for various 
+            applications in technology and engineering. I learned about algebraic concepts, including equations, functions, 
+            and graphing techniques, which are vital for problem-solving in programming and software development. 
+            The course also covered statistics and probability, enabling me to analyze data effectively and understand statistical 
+            significance in testing. Additionally, I gained insights into mathematical reasoning and logic, enhancing my analytical skills.
+
 
 projects:
     title: QA Automation Project - Foody Application
