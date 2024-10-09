@@ -301,6 +301,14 @@ projects:
       
     assignments:
       - title: Automated Testing for Foody Web Application
+        tagline: Developed automated UI tests for the Foody web application, focusing on core functionalities.
+        technologies_used: Selenium, GitHub Actions, Python
+        achievements:
+          - Reduced testing time by 30%
+          - Improved testing efficiency
+        link: http://example.com/project-one
+    
+      - title: Automated Testing for Foody Web Application
         link: "#"
         tagline: "Developed automated UI tests for the Foody web application, focusing on core functionalities."
 
