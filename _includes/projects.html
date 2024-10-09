@@ -31,6 +31,23 @@
       - <span class="project-tagline">{{ project.tagline }}</span>
       {% endif %}
 
+      {% if project.technologies_used %}
+      <div class="project-technologies">
+        <strong>Technologies Used:</strong> {{ project.technologies_used }}
+      </div>
+      {% endif %}
+
+      {% if project.achievements %}
+      <div class="project-achievements">
+        <strong>Key Achievements:</strong> 
+        <ul>
+          {% for achievement in project.achievements %}
+            <li>{{ achievement }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
     </div><!--//item-->
   {% endfor %}
 
