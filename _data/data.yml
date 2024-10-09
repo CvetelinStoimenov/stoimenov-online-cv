@@ -298,7 +298,7 @@ certifications:
 projects:
     title: My Projects
     intro: >
-      
+      In this section, you can find summaries of some of my projects. For more detailed insights and additional projects, please visit my blog: https://cvetelinstoimenov.github.io/blog/#/.
     assignments:
       - title: Automated Testing for Foody Web Application
         tagline: Developed automated UI tests for the Foody web application, focusing on core functionalities.
@@ -308,20 +308,120 @@ projects:
           - Improved testing efficiency
         link: https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam
 
-      - title: Automated Testing for Foody Web Application
-        date: "07.08.2024"
-        summary: "Developed automated UI tests for the Foody web application, focusing on core functionalities."
+      - title: "Automated UI Tests for Foody Web Application"
+        date: "15.09.2024"
+        summary: "Developed automated UI tests for the Foody web application, focusing on core CRUD functionalities and user interactions."
         key_features:
-          - "Pipeline Configuration: Created a GitHub Actions workflow to automate the build and test stages on every push or pull request to the main branch."
-          - "Environment Setup: Set up .NET Core environment and installed Chrome browser for Selenium tests."
-          - "Build Process: Checked out code, restored dependencies, and applied permissions for Selenium operations."
-          - "Testing: Executed Selenium tests with ChromeDriver on Ubuntu, including debugging steps."
+          - "Automated tests for food item creation, editing, deletion, and search functionalities."
+          - "Implemented tests to verify the accuracy of food item details and user interactions."
+          - "Utilized Page Object Model (POM) design pattern for better code organization."
+          - "Integrated tests into the CI/CD pipeline for continuous testing."
+        outcome: "Enhanced reliability of the Foody application through automated testing, ensuring consistent performance across updates."
+        technologies_tools: ["Selenium", "C#", "Page Object Model", "GitHub Actions"]
+        achievements:
+          - "Achieved 100% test coverage for core functionalities."
+          - "Reduced manual testing efforts by 60% through automation."
+        link: "https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam"
+
+
+      - title: "CI/CD Pipeline Setup - Selenium IDE Integration"
+        date: "07.08.2024"
+        summary: "Developed and configured a CI/CD pipeline using GitHub Actions to automate the build and test processes for a Selenium-based test suite."
+        key_features:
+          - "Created a GitHub Actions workflow to automate the build and test stages on every push or pull request."
+          - "Set up .NET Core environment and installed Chrome browser for Selenium tests."
+          - "Checked out code, restored dependencies, and applied permissions for Selenium operations."
+          - "Executed Selenium tests with ChromeDriver on Ubuntu, including debugging steps."
         outcome: "Streamlined integration and testing process, enhancing pipeline reliability and code quality."
         technologies_tools: ["GitHub Actions", ".NET Core", "Selenium WebDriver", "ChromeDriver", "Ubuntu"]
         achievements:
-          - "Reduced testing time by 30%"
-          - "Improved testing efficiency"
-        link: "https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam"
+          - "Reduced manual testing efforts by 30% through automation."
+          - "Improved deployment speed by integrating automated testing."
+        link: "https://example.com/project1"
+
+      - title: "QA Automation Project - Album Management System"
+        date: "29.06.2024"
+        summary: "Developed automated tests for user authentication and CRUD operations on albums, focusing on verifying functionality and data integrity through API testing."
+        key_features:
+          - "Implemented automated tests for user registration and login, verifying API responses."
+          - "Created test cases for album creation, retrieval, editing, and deletion."
+          - "Utilized dynamic token handling for secure API requests."
+          - "Applied comprehensive assertions to validate API response accuracy."
+        outcome: "Improved test coverage for user and album functionalities, reducing manual testing efforts by 50%."
+        technologies_tools: ["QUnit", "JavaScript", "REST API", "fetch", "sessionStorage"]
+        achievements:
+          - "Achieved 95% test coverage on core functionalities."
+          - "Enhanced API performance through effective testing strategies."
+        link: "https://example.com/project2"
+
+      - title: "End-to-End Testing Project with Playwright"
+        date: "29.06.2024"
+        summary: "Developed comprehensive end-to-end tests for a web application using Playwright, testing user authentication, navigation, and CRUD operations."
+        key_features:
+          - "Implemented tests for user registration, login, and logout."
+          - "Verified navigation options for logged-in and guest users."
+          - "Tested the 'Create Album' functionality and editing existing album information."
+          - "Developed tests for deleting albums, ensuring permissions were respected."
+        outcome: "Delivered a robust suite of e2e tests, ensuring application reliability and correctness."
+        technologies_tools: ["Playwright", "Chromium", "JavaScript"]
+        achievements:
+          - "Achieved 100% pass rate on critical user flows."
+          - "Identified and resolved key issues before production release."
+        link: "https://example.com/project3"
+
+      - title: "Ticket Purchase System with JavaScript"
+        date: "29.06.2024"
+        summary: "Developed an interactive web application for ticket purchases using vanilla JavaScript, allowing users to input details and finalize purchases."
+        key_features:
+          - "Implemented form validation for all fields."
+          - "Provided a dynamic preview of ticket information."
+          - "Created a multi-step purchase process with edit options."
+          - "Developed the 'Back' functionality for user navigation."
+        outcome: "Delivered a functional ticket purchasing system, improving user experience."
+        technologies_tools: ["JavaScript", "DOM Manipulation", "Event Handling", "HTML", "CSS"]
+        achievements:
+          - "Increased user satisfaction by providing a seamless ticket purchasing experience."
+          - "Reduced input errors through effective validation mechanisms."
+        link: "https://example.com/project4"
+
+      - title: "API Testing with RestSharp and NUnit"
+        date: "15.03.2024"
+        summary: "Developed automated tests for GitHub's API using RestSharp and NUnit, ensuring expected outcomes."
+        key_features:
+          - "Tested GitHub API for issues management."
+          - "Created test cases with mock authentication."
+          - "Performed integration testing with HTTP requests."
+        outcome: "Successfully implemented automated testing for GitHub API features."
+        technologies_tools: ["C#", "RestSharp", "NUnit", "JSON", "Moq", "GitHub API"]
+        achievements:
+          - "Ensured API reliability by achieving over 90% test coverage."
+          - "Reduced testing time significantly through automation."
+        link: "https://example.com/project5"
+
+      - title: "NUnit Testing with Mocking in C# (GetGreeting App)"
+        date: "23.02.2024"
+        summary: "Designed and implemented unit tests using NUnit and Moq for greeting messages based on time."
+        key_features:
+          - "Created test cases using a mocked ITimeProvider interface."
+        outcome: "Achieved comprehensive test coverage for time-sensitive features."
+        technologies_tools: ["C#", "NUnit", "Moq"]
+        achievements:
+          - "Improved code quality through rigorous testing."
+          - "Facilitated easier debugging and maintenance."
+        link: "https://example.com/project6"
+
+      - title: "Unit Testing with JavaScript"
+        date: "30.01.2024"
+        summary: "Developed unit tests for several JavaScript functions, ensuring code correctness and reliability."
+        key_features:
+          - "Wrote unit tests for mathematical and color conversion functions."
+        outcome: "Ensured 100% test coverage for all functions."
+        technologies_tools: ["JavaScript", "Mocha", "Chai", "Node.js"]
+        achievements:
+          - "Enhanced confidence in code stability."
+          - "Identified edge cases and improved function robustness."
+        link: "https://example.com/project7"
+
 
 oss:
     title: OSS Contributions
