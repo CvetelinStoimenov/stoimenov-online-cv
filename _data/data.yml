@@ -300,14 +300,6 @@ projects:
     intro: >
       In this section, you can find summaries of some of my projects. For more detailed insights and additional projects, please
     assignments:
-      - title: Automated Testing for Foody Web Application
-        tagline: Developed automated UI tests for the Foody web application, focusing on core functionalities.
-        technologies_used: Selenium, GitHub Actions, Python
-        achievements:
-          - Reduced testing time by 30%
-          - Improved testing efficiency
-        link: https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam
-
       - title: "Automated UI Tests for Foody Web Application"
         date: "15.09.2024"
         summary: "Developed automated UI tests for the Foody web application, focusing on core CRUD functionalities and user interactions."
