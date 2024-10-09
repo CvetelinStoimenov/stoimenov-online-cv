@@ -296,14 +296,13 @@ certifications:
 
 
 projects:
-    title: QA Automation Project - Foody Application
+    title: My Projects
     intro: >
-      This project involved developing automated UI tests for the Foody web application, focusing on core CRUD 
-      functionalities and user interactions.
+      
     assignments:
-      - title: Automated Testing with Selenium
+      - title: Automated Testing for Foody Web Application
         link: "#"
-        tagline: "Created automated tests for the user interface, ensuring smooth navigation and functionality across various scenarios."
+        tagline: "Developed automated UI tests for the Foody web application, focusing on core functionalities."
 
       - title: DevStudio
         link: "#"
