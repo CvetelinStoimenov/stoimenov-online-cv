@@ -307,7 +307,21 @@ projects:
           - Reduced testing time by 30%
           - Improved testing efficiency
         link: https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam
-    
+
+      - title: Automated Testing for Foody Web Application
+        date: "07.08.2024"
+        summary: "Developed automated UI tests for the Foody web application, focusing on core functionalities."
+        key_features:
+          - "Pipeline Configuration: Created a GitHub Actions workflow to automate the build and test stages on every push or pull request to the main branch."
+          - "Environment Setup: Set up .NET Core environment and installed Chrome browser for Selenium tests."
+          - "Build Process: Checked out code, restored dependencies, and applied permissions for Selenium operations."
+          - "Testing: Executed Selenium tests with ChromeDriver on Ubuntu, including debugging steps."
+        outcome: "Streamlined integration and testing process, enhancing pipeline reliability and code quality."
+        technologies_tools: ["GitHub Actions", ".NET Core", "Selenium WebDriver", "ChromeDriver", "Ubuntu"]
+        achievements:
+          - "Reduced testing time by 30%"
+          - "Improved testing efficiency"
+        link: "https://github.com/CvetelinStoimenov/Front-End-Test-Automation-July-2024/tree/main/20.Exam"
 
 oss:
     title: OSS Contributions
